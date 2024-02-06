@@ -1,28 +1,34 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header id="header">
-        <img id="header-img"/>
-        <nav id="nav-bar">
-            <a class="nav-link">Home</a>
-            <a class="nav-link">Content</a>
-            <a class="nav-link">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <iframe id="video"></iframe>
-        </section>
-        <section>
-            <form id="form">
-                <input id="email"/>
-            </form>
-        </section>
-    </main>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Landing Page</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header id="header">
+			<img id="header-img" />
+			<nav id="nav-bar">
+				<a class="nav-link">Home</a>
+				<a class="nav-link">Content</a>
+				<a class="nav-link">Contact</a>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<iframe id="video"></iframe>
+			</section>
+			<section>
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<input
+						id="email"
+						placeholder="Enter your email to receive our newsletter"
+						type="email"
+						required
+					/>
+					<input id="submit" type="submit" value="Submit" class="btn" />
+				</form>
+			</section>
+		</main>
+	</body>
 </html>

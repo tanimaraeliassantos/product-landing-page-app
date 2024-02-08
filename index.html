@@ -6,63 +6,73 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<header id="header">
-			<img
-				id="header-img"
-				src="https://ae01.alicdn.com/kf/H1df192b5e4c14a57979dd3c984cab0f7F/Conjunto-de-Yoga-sin-costuras-para-mujer-ropa-deportiva-de-entrenamiento-gimnasio-Top-corto-de-manga.jpg_640x640.jpg"
-			/>
-			<nav id="nav-bar">
-				<a class="nav-link" href="#home">Home</a>
-				<a class="nav-link" href="#fitness">Fitness</a>
-				<a class="nav-link" href="#recipes">Recipes</a>
-				<a class="nav-link" href="#momLife">Mom Life</a>
-				<a class="nav-link" href="#diy">DIY</a>
-			</nav>
-		</header>
-		<main>
-			<section class="main-section" id="home"></section>
-			<section class="main-section" id="fitness">
-				<iframe
-					id="video"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/snbwSXBYiq0?si=YDbUjMBT60-1wJOx"
-					title="YouTube video player"
-					frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					allowfullscreen
-				></iframe>
-			</section>
-			<section class="main-section" id="recipes">
-				<div>
-					Easy, delicious OR healthy meals for the whole family. Pick one. Stick
-					to it.
+		<div id="page-wrapper">
+			<header id="header">
+				<div class="logo">
+					<img id="header-img" src="tanimara_logo.png" alt="tanimara logo" />
 				</div>
-			</section>
-			<section class="main-section" id="momLife">
-				<div>
-					Learning tools, books, how-to-adult and PLAY! I investigate, come with
-					me and follow through my discoveries. But do your job, and investigate
-					too.
-				</div>
-			</section>
-			<section class="main-section" id="diy">
-				<div>
-					My attempts at DIY are more in the realm of the memes of "Expectations
-					x Reality", but hey, give me some slack. At least, I'm trying.
-				</div>
-			</section>
-			<section class="main-section" id="newsletter">
-				<form id="form" action="https://www.freecodecamp.com/email-submit">
-					<input
-						id="email"
-						placeholder="Enter your email to receive our newsletter"
-						type="email"
-						required
+
+				<nav id="nav-bar">
+					<ul>
+						<li><a class="nav-link" href="#home">Home</a></li>
+						<li><a class="nav-link" href="#fitness">Fitness</a></li>
+						<li><a class="nav-link" href="#recipes">Recipes</a></li>
+						<li><a class="nav-link" href="#momLife">Mom Life</a></li>
+						<li><a class="nav-link" href="#diy">DIY</a></li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<section class="main-section" id="home"></section>
+				<section class="main-section" id="fitness">
+					<img
+						id="header-img"
+						src="https://ae01.alicdn.com/kf/H1df192b5e4c14a57979dd3c984cab0f7F/Conjunto-de-Yoga-sin-costuras-para-mujer-ropa-deportiva-de-entrenamiento-gimnasio-Top-corto-de-manga.jpg_640x640.jpg"
 					/>
-					<input id="submit" type="submit" value="Submit" class="btn" />
-				</form>
-			</section>
-		</main>
+					<iframe
+						id="video"
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/snbwSXBYiq0?si=YDbUjMBT60-1wJOx"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					></iframe>
+				</section>
+				<section class="main-section" id="recipes">
+					<div>
+						Easy, delicious OR healthy meals for the whole family. Pick one.
+						Stick to it.
+					</div>
+				</section>
+				<section class="main-section" id="momLife">
+					<div>
+						Learning tools, books, how-to-adult and PLAY! I investigate, come
+						with me and follow through my discoveries. But do your job, and
+						investigate too.
+					</div>
+				</section>
+				<section class="main-section" id="diy">
+					<div>
+						My attempts at DIY are more in the realm of the memes of
+						"Expectations x Reality", but hey, give me some slack. At least, I'm
+						trying.
+					</div>
+				</section>
+				<section class="main-section" id="newsletter">
+					<form id="form" action="https://www.freecodecamp.com/email-submit">
+						<input
+							name="email"
+							id="email"
+							placeholder="Enter your email to receive our newsletter"
+							type="email"
+							required
+						/>
+						<input id="submit" type="submit" value="Submit" class="btn" />
+					</form>
+				</section>
+			</main>
+		</div>
 	</body>
 </html>
